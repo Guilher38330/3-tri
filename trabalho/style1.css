@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gemunu Libre';
+}
+
+body{
+    background-color: #057c2e;
+    height: 100vh;
+}
+
+.interface{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.flex{
+    display: flex;
+}
+
+.btn-contato button{
+    padding: 10px 40px;
+    font-size: 18px;
+    font-weight: 800;
+    background-color: #d8d8d8;
+    border: 0;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .2s;
+}
+
+button:hover{
+    box-shadow: 0px 0px 10px #ffffff;
+    transform: scale(1.05);
+}
+
+h2.titulo{
+    color: #000000;
+    font-size: 50px;
+    text-align: center;
+}
+
+h2.titulo span{
+    color: #e1ddd0;
+}
+
+/* Estilo do cabeçalho */
+header{
+    padding: 40px 4%;
+}
+
+header > .interface{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* cabeçalho links */
+header a{
+    color: #a2a2a2;
+    text-decoration: none;
+    display: inline-block;
+    transition: .2s;
+}
+
+header a:hover{
+    color: #ffffff;
+    transform: scale(1.05);
+
+}
+
+header nav ul{
+    list-style-type: none;
+}
+
+header nav ul li{
+    display: inline-block;
+    padding: 0 40px;
+
+}
+
+.rodape {
+    background-color: #035400;
+    color: #fff;
+    text-align: center;
+    padding: 30px 0;
+}
+
+.rodape p {
+    margin: 0;
+}
